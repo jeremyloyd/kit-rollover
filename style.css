@@ -1,0 +1,123 @@
+body {
+    padding: 50px;
+    background-image: url(concrete-dark-rev.jpg);
+}
+
+.kit-wrapper {
+	width: 660px;
+}
+
+.kit-title {
+	font-size: 20px;
+	background-color: rgb(92, 92, 92);
+	color: white;
+	margin: 0;
+	padding: 15px 20px 15px 20px;
+	font-family: Helvetica, sans-serif;
+	font-weight: bold;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	
+}
+
+.kit-instruct {
+	background-color: #e65d25;
+	margin: 0;
+	padding: 10px 20px;
+	font-family: helvetica,sans-serif;
+	font-size: 13px;
+}
+
+.kit-describe {
+	font-family: Helvetica, sans-serif;
+	color: rgb(92, 92, 92);
+	font-size: 12px;
+	font-weight: normal;
+	margin: 0;
+	padding-top: 5px;
+	padding-bottom: 18px;
+	width: 100%;
+}
+
+.kit-options {
+	font-family: Helvetica, sans-serif;
+	font-size: 12px;
+	padding: 10px 20px 10px 20px;
+	width: 140px;
+	color: rgb(92, 92, 92);
+	border-right: 1px solid rgb(163, 163, 163);
+}
+ul {
+    display: inline-block;
+    height: 375px;
+    position: relative;
+    width: 100%;
+    background-image: url("car.jpg");
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    background-color: #fefefe;
+    
+}
+li {
+    font: bold 16px/100px sans-serif;
+    list-style: none;
+}
+a {
+    border-right: 1px solid rgb(163, 163, 163);
+    border-bottom: 1px solid rgb(210, 210, 210);
+    color: black;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    width: 140px;
+    padding: 18px 20px 0 20px;
+    line-height:12px;
+    
+    
+}
+li:first-child a {
+
+}
+li:nth-child(2) a {
+    color: black;
+}
+li:nth-child(3) a {
+    color: black;
+}
+a:hover {
+    background: rgb(163, 163, 163);
+    color: #fff;
+}
+li:nth-child(2) a:hover {
+    background: rgb(163, 163, 163);
+    color: #fff;
+}
+li:nth-child(3) a:hover {
+    background: rgb(163, 163, 163);
+    color: #fff;
+}
+img {
+    background-image: url("car.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    display: none;
+    height: 375px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 480px;
+}
+li:nth-child(2) img {
+    background: blue;
+    background-image: url("car2.jpg");
+    
+}
+li:nth-child(3) img {
+    background: green;
+}
+a:hover + img,
+img:hover {
+    display: block;
+    border: none;
+}
